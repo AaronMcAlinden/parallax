@@ -1,0 +1,114 @@
+
+
+.parallax {
+  background: url(../images/skyline.svg) no-repeat fixed;
+  background-size: cover;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/*
+.foreground {
+  height: 768px;
+  width:auto;
+  background-image: url(../images/mountain-front.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-attachment: fixed;
+  translate-z: 
+  
+}
+*/
+
+.parallax_layer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top:0;
+  padding-top: 300px;
+}
+
+.logo img {
+  height: 15em;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom:9em;
+  transform: translateZ(-3px) scale(4);
+  
+}
+
+.logo {
+  z-index: 1000;
+}
+.fadein {
+
+  
+}
+
+.foreground {
+  transform: translateZ(0);
+  position:absolute;
+ 
+
+}
+
+.midground{
+  transform: translateZ(-1px) scale(2);
+  position:absolute;
+  bottom:-
+}
+
+.background {
+  transform: translateZ(-3px) scale(4);
+  position:absolute;
+}
+
+/*
+.cloud1  { 
+   width:70%;
+  max-width: 500px;
+  margin-left: -120em;
+  margin-right:auto;
+  float:left;
+  margin-top:-100px;
+  transform: translateZ(-5px) scale(6);
+  -webkit-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+ 
+}
+
+.cloud2  { 
+  width:70%;
+  max-width: 500px;
+  margin-right: -120em;
+  margin-left:auto;
+  float:right;
+  margin-top:-100px;
+  transform: translateZ(-5px) scale(6);
+  -webkit-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+}
+*/
+
+
+
+
+.content  {
+  height:3000px;
+  
+}
+
+h1  {
+  text-align: center;
+}
